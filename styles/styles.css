@@ -31,3 +31,24 @@ p,li {
     line-height: 2;
     letter-spacing: 1px;
 }
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+ul.linker {
+    list-style-type: none;
+    background-color: #339922;
+    overflow: hidden;
+}
+
+ul.linker li {
+    float: left;
+}
+
+ul.linker li a:hover {
+    background-color: #333;
+}
