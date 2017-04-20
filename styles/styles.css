@@ -4,12 +4,15 @@
 .copyright {
     padding-top: 10px;
 }
+.directory a{
+    color: white;
+}
 .footer {
     margin-top: 100px;
     background-color: #00328b;
     color: white;
 }
-.footer a {
+.social {
     background-color: white;
     padding: 10px;
 }
@@ -52,13 +55,16 @@
     text-decoration: underline;
 }
 
+/* NAVBAR EDITS */
 
+@media (min-width:992px) {
 
+    body {padding-top:HEIGHTOFNAVBAR}
+    .navbar-static-top {position:fixed;top:0;right:0;left:0;}
 
+}
 
-
-
-
+/* SLIDESHOW CSS PROPERTIES */
 
 
 * {box-sizing:border-box}
