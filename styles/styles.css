@@ -58,8 +58,12 @@
     height: 100px;
 }
 .thumbs2 {
-    width: auto%;
+    width: auto;
     height: 185px;
+}
+.thumbslarge{
+    width: auto;
+    height: 250px;
 }
 .underline{
     text-decoration: underline;
