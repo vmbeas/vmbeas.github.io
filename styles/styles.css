@@ -75,6 +75,14 @@
     text-transform: uppercase;
 }
 
+q {
+    font-style: italic;
+}
+
+
+
+
+
 /* NAVBAR EDITS */
 
 @media (min-width:992px) {
