@@ -1,3 +1,8 @@
+// Get the element with id="defaultOpen" and click on it
+$( document ).ready(function() {
+    document.getElementById("defaultOpen").click();
+})
+
 // Slideshow functionality
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -43,5 +48,4 @@ function openSection(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+
