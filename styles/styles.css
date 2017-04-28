@@ -45,6 +45,9 @@
 .spacer {
     margin-bottom: 35px;
 }
+.strong {
+    font-weight: bolder;
+}
 .strongbuilt{
     color: #00328b;
     font-weight: bold;
@@ -67,6 +70,9 @@
 }
 .underline{
     text-decoration: underline;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* NAVBAR EDITS */
