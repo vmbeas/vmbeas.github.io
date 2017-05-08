@@ -48,4 +48,3 @@ function openSection(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
-
