@@ -84,6 +84,7 @@ q {
 /* Styles the list in the FAQ section. Removes the original HTML generated numbers and replaced them with stylized numbers for aesthetic purposes. If adding new items to the list, take care to add the proper class to ensure the numbers are properly generated*/
 
 body {
+    padding-top: 70px;
     counter-reset: item;
 }
 .faqnums {
@@ -114,10 +115,12 @@ body {
 /* NAVBAR EDITS */
 
 @media (min-width:992px) {
-
     body {padding-top:HEIGHTOFNAVBAR}
     .navbar-static-top {position:fixed;top:0;right:0;left:0;}
+}
 
+.navbar {
+    margin-bottom: 10px;
 }
 
 /* SLIDESHOW CSS PROPERTIES */
