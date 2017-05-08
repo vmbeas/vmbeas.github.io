@@ -10,6 +10,16 @@
 .efficient {
     color: green;
 }
+.floatleft {
+    float: left;
+    clear: left;
+    margin-right: 25px;
+}
+.floatright {
+    float: right;
+    clear: right;
+    margin-left: 25px;
+}
 .footer {
     margin-top: 100px;
     background-color: #00328b;
@@ -37,6 +47,9 @@
     max-width: 100%;
     height: auto;
 }
+.shiftright {
+    margin-right: -1000px;
+}
 .social {
     background-color: white;
     padding: 10px;
@@ -54,6 +67,9 @@
 }
 .subtext {
     font-size: .80em
+}
+.titlelabel {
+    font-size: 1.5em;
 }
 /* Thumbnail size image */
 .thumbs {
