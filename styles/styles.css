@@ -15,10 +15,6 @@
     background-color: #00328b;
     color: white;
 }
-.social {
-    background-color: white;
-    padding: 10px;
-}
 .header {
     height: 500px;
     margin-bottom: 50px;
@@ -40,6 +36,10 @@
 .scaledimg {
     max-width: 100%;
     height: auto;
+}
+.social {
+    background-color: white;
+    padding: 10px;
 }
 /* Creates a buffer for articles */
 .spacer {
@@ -75,10 +75,38 @@
     text-transform: uppercase;
 }
 
+
 q {
     font-style: italic;
 }
 
+
+/* Styles the list in the FAQ section. Removes the original HTML generated numbers and replaced them with stylized numbers for aesthetic purposes. If adding new items to the list, take care to add the proper class to ensure the numbers are properly generated*/
+
+body {
+    counter-reset: item;
+}
+.faqnums {
+    list-style: none;
+ }
+
+.faqparas {
+    counter-increment: item;    
+    margin-bottom: 5px;
+    list-style: none;
+ }
+ 
+.faqparas:before {
+    list-style: none;
+    margin-right: 10px;
+    margin-left: -40px;
+    content: counter(item);
+    background: #00328b;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+ }
 
 
 
